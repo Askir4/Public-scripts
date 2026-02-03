@@ -11,3 +11,12 @@ Dieses Projekt dient rein als Übung. Es wird keine Garantie für die Sicherheit
 Hier werden sehr viele Kommentare verwendet, da ich versuche die Logik des Codes für mich selbst zu dokumentieren, da ich hier tutorials folge, um Python zu lernen.
 
 ---
+### Wie es funktioniert
+
+1. Der User gibt die Länge des Passworts ein.
+2. Der User wählt die Komplexität des Passworts aus.
+3. Das Tool generiert ein zufälliges Passwort.
+4. Das Tool gibt das Passwort aus.
+
+Dafür verwendet das Tool die secrets Choice Funktion.
+

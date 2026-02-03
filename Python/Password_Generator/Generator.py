@@ -3,6 +3,8 @@
 #Simple Password Generator
 #DO NOT USE FOR REAL PASSWORDS
 #This is for educational purposes only
+from secrets import choice #Import the choice function from the secrets module in order to generate a random password
+
 print("\n##Password Generator##\n") #Print the title of the tool in a new line by using \n
 
 while True: 
@@ -48,29 +50,36 @@ if complexity ==1:
     all_chars = list(numbers) #Add numbers to the array
 
 elif complexity ==2: #Use else if to check for multiple conditions
-    all_chars == list(lower_letters) #Add lower letters to the array
+    all_chars = list(lower_letters) #Add lower letters to the array
 
 elif complexity ==3:
-    all_chars == list(upper_letters) #Add upper letters to the array
+    all_chars = list(upper_letters) #Add upper letters to the array
 
 elif complexity ==4:
-    all_chars == list(letters)   #Add letters to the array 
+    all_chars = list(letters)   #Add letters to the array 
 
 elif complexity ==5:
-    all_chars == list(letters + numbers) #Add letters and numbers to the array
+    all_chars = list(letters + numbers) #Add letters and numbers to the array
 
 elif complexity ==6:
-    all_chars == list(symbols) #Add symbols to the array
+    all_chars = list(symbols) #Add symbols to the array
 
 elif complexity ==7:
-    all_chars == list(numbers + symbols) #Add numbers and symbols to the array
+    all_chars = list(numbers + symbols) #Add numbers and symbols to the array
 
 elif complexity ==8:
-    all_chars == list(letters + symbols) #Add letters and symbols to the array
+    all_chars = list(letters + symbols) #Add letters and symbols to the array
 
 elif complexity ==9:
-    all_chars == list(letters + numbers + symbols) #Add letters, numbers and symbols to the array
+    all_chars = list(letters + numbers + symbols) #Add letters, numbers and symbols to the array
 
+pw=""
+
+for i in range(length): #Loop through the length of the password
+    pw += choice(all_chars) #Add a random character to the passwword based on the complexity of the password
+
+print("\nYour password is: ")
+print(pw)
 
 
     

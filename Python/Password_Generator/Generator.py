@@ -3,6 +3,9 @@
 #Simple Password Generator
 #DO NOT USE FOR REAL PASSWORDS
 #This is for educational purposes only
+#Author Askir4
+#Date: 2026-02-05
+#Version: 1.0 (Development)
 from secrets import choice #Import the choice function from the secrets module in order to generate a random password
 
 print("\n##Password Generator##\n") #Print the title of the tool in a new line by using \n

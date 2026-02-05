@@ -1,19 +1,19 @@
 ## Public Scripts 
 
-**Interner Gebrauch – Testzwecke**
+**Internal Use – Test Purposes**
 
 ---
 
-### Übersicht
+### Overview
 
-In diesem Repo lade ich meine Skripts hoch, welche ich, während ich versuche Powershell zu lernen schreibe, und von denen ich denke, dass auch andere sie benutzen können. Diese werden nicht immer perfekt sein aber egal. Wer sie testen möchte kann dies gerne tun.
+In this repo I upload my scripts which I write while trying to learn PowerShell, and which I think others can use as well. They will not always be perfect but that doesn't matter. Anyone who wants to test them is welcome to do so.
 
-### Inhalte
+### Contents
 
-* **Mailing Skripte:** Verschiedene Skripte, die gewisse Aufgaben im Zusammenhang mit Mailing einfacher machen sollen
-* **Checker Skripte:** In Zukunft möchte ich verschiedene Dinge automatisch checken lassen können
-* **Sonstiges:** Der Rest ist noch nicht ganz sicher :D
+* **Mailing Scripts:** Various scripts that make certain tasks related to mailing easier
+* **Checker Scripts:** In the future I want to be able to automatically check various things
+* **Other:** The rest is not quite clear yet :D
 
-## Hinweise
+## Notes
 
-* Diese Skripte sind nicht perfekt und können (und werden) Fehler und unnötige Dinge beinhalten
+* These scripts are not perfect and can (and will) contain errors and unnecessary things

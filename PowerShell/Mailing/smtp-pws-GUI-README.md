@@ -1,42 +1,42 @@
-# Mail-Faker-GUI
+# Mail Faker GUI
 
-**Achtung: Nur für interne Testzwecke!**
+**Warning: For internal test purposes only!**
 
 ---
 
-## Inhaltsverzeichnis
+## Table of Contents
 
-1. [Beschreibung](#beschreibung)  
-2. [Voraussetzungen](#voraussetzungen)  
+1. [Description](#description)  
+2. [Prerequisites](#prerequisites)  
 3. [Installation](#installation)  
-4. [Starten des Skripts](#starten-des-skripts)  
-5. [GUI-Elemente & Funktionen](#gui-elemente--funktionen)  
-6. [Dark Mode & Authentifizierung](#dark-mode--authentifizierung)  
-7. [Anhang hinzufügen](#anhang-hinzufügen)  
-8. [Fehlerbehandlung](#fehlerbehandlung)  
-9. [Haftungsausschluss](#haftungsausschluss)
+4. [Running the Script](#running-the-script)  
+5. [GUI Elements & Functions](#gui-elements--functions)  
+6. [Dark Mode & Authentication](#dark-mode--authentication)  
+7. [Add Attachment](#add-attachment)  
+8. [Error Handling](#error-handling)  
+9. [Disclaimer](#disclaimer)
 
 ---
 
-## Beschreibung
+## Description
 
-Dieses PowerShell-Skript stellt eine einfache grafische Oberfläche (GUI) bereit, um testweise E-Mails **beliebiger Absender- und Empfänger-Adressen** über einen SMTP-Server zu schicken.  
-**WICHTIG:** Dieses Tool ist ausschließlich für interne Tests gedacht und darf nicht im produktiven Umfeld eingesetzt werden!
+This PowerShell script provides a simple graphical user interface (GUI) to send test emails with **any sender and recipient addresses** via an SMTP server.  
+**IMPORTANT:** This tool is intended exclusively for internal testing and must not be used in production environments!
 
 ---
 
-## Voraussetzungen
+## Prerequisites
 
-- Windows PowerShell (Version 5.1 oder höher)  
-- .NET Framework mit `System.Windows.Forms` und `System.Drawing`  
-- Netzwerkzugriff auf einen SMTP-Server (Port 25, 465, 587 oder 2525)  
+- Windows PowerShell (version 5.1 or higher)  
+- .NET Framework with `System.Windows.Forms` and `System.Drawing`  
+- Network access to an SMTP server (port 25, 465, 587 or 2525)  
 
 ---
 
 ## Installation
 
-1. Skript-Datei **`Mail-faker-gui-03.ps1`** in einen lokalen Ordner kopieren.  
-2. PowerShell mit **Administrator-Rechten** starten (falls erforderlich).  
-3. Gegebenenfalls Execution Policy anpassen:
+1. Copy the script file **`Mail-faker-gui-03.ps1`** to a local folder.  
+2. Start PowerShell with **Administrator rights** (if required).  
+3. Adjust Execution Policy if needed:
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser

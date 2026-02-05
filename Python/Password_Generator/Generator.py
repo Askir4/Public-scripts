@@ -25,13 +25,15 @@ print("6: I want my passwort to contain only symbols")
 print("7: I want my password to contain numbers and symbols")
 print("8: I want my password to contain letters and symbols")
 print("9: I want my password to contain letters, numbers and symbols")
+print("10: I want my password to contain random words")
+
 
 while True:
     #Ask user to enter the complexity of the password
     #Define user input is Complexity_Password
     Complexity_Password=input("\nPlease choose the complexity of your password:")
     Complexity_Password=Complexity_Password.strip()#Remoce white spaces (for example spacebar inputs by user)
-    if Complexity_Password in ["1","2","3","4","5","6","7","8","9"]:#Give a list of valid options.by using in operator.
+    if Complexity_Password in ["1","2","3","4","5","6","7","8","9","10"]:#Give a list of valid options.by using in operator.
         break
     else:
         print("Please enter a valid option (choose 1,2,3,4,5,6,7,8 or 9)")
@@ -43,6 +45,7 @@ upper_letters = lower_letters.upper() #Define the upper letters by using the upp
 letters = lower_letters + upper_letters #Define the letters by using the + operator on the lower and upper letters
 numbers = "0123456789" #Define the numbers
 symbols = "!@#$%^&*()_+[]{}|;:,./<>?" #Define the symbols
+random_words = "hallo,test,warum,HALO,"
 
 all_chars =[] #Empty array to store diferent characters based on the complexity of the password
 
@@ -72,6 +75,9 @@ elif complexity ==8:
 
 elif complexity ==9:
     all_chars = list(letters + numbers + symbols) #Add letters, numbers and symbols to the array
+
+elif complexity ==10:
+    all_chars = list(random_words + numbers + symbols + letters) #Add random words to the array
 
 pw=""
 
